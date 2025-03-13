@@ -76,5 +76,8 @@ Rails.application.configure do
 
   # 全ホストの許可
   config.hosts.clear
+
+  # よく分からないけどエラー回避
+  config.active_job.queue_adapter = :inline
 end
 
