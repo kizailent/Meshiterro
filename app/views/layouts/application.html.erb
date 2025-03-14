@@ -9,9 +9,11 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <body>
+  <body>fadssadvsa
     <header>
       <% if user_signed_in? %>
+        <li>
+          <%= link_to "新規投稿", new_post_image_path %>
         <li>
           <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
         </li>
