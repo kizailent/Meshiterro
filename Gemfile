@@ -55,3 +55,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Use Devise for user authentication
 gem 'devise'
+
+gem 'kaminari','~> 1.2.1'
